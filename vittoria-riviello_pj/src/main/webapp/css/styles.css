@@ -1,0 +1,3905 @@
+@media screen and (max-width: 400px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+/*fine gestione cerca film*/
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right {
+        float: right;
+    }
+
+    nav ul li.border-right {
+        border-right: 1px solid #bbb;
+    }
+
+    nav ul li a:hover {
+        color: #40A1FF;
+    }
+
+    nav ul li i {
+        font-size: 20px;
+    }
+
+    i {
+        margin-left: 12px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 50%;
+    }
+
+    li.right {
+        float: none;
+    }
+
+    li.border-right {
+        border-right: none;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain; /*serve per mantenere le proporzioni dell'immagine*/
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+/*solo sul p*/
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 720px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right {
+        float: right;
+    }
+
+    nav ul li.border-right {
+        border-right: 1px solid #bbb;
+    }
+
+    nav ul li a:hover {
+        color: #40A1FF;
+    }
+
+    nav ul li i {
+        font-size: 20px;
+    }
+
+    i {
+        margin-left: 12px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    li {
+        width: 50%;
+    }
+
+    li.right {
+        float: none;
+    }
+
+    li.border-right {
+        border-right: none;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+    /*fine gestione cerca film*/
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 721px) and (max-width: 1280px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right{
+        float: right;
+    }
+
+    nav ul li.border-right{
+        border-right:1px solid #bbb;
+    }
+
+    nav ul li a:hover{
+        color: #40A1FF;
+    }
+
+    nav ul li i{
+        font-size: 20px;
+    }
+
+    i{
+        margin-left: 12px;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+    /*fine gestione cerca film*/
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1440px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right{
+        float: right;
+    }
+
+    nav ul li.border-right{
+        border-right:1px solid #bbb;
+    }
+
+    nav ul li a:hover{
+        color: #40A1FF;
+    }
+
+    nav ul li i{
+        font-size: 20px;
+    }
+
+    i{
+        margin-left: 12px;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+    /*fine gestione cerca film*/
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1920px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right{
+        float: right;
+    }
+
+    nav ul li.border-right{
+        border-right:1px solid #bbb;
+    }
+
+    nav ul li a:hover{
+        color: #40A1FF;
+    }
+
+    nav ul li i{
+        font-size: 20px;
+    }
+
+    i{
+        margin-left: 12px;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+    /*fine gestione cerca film*/
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 1921px) {
+    html,body{
+        background-color: white;
+        margin: 0;
+        padding: 0;
+        font-family: "Times New Roman", serif;
+    }
+
+    *{
+        box-sizing: border-box;
+    }
+
+    /*gestione nav bar */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        padding: 18px 15px;
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    nav ul li.right{
+        float: right;
+    }
+
+    nav ul li.border-right{
+        border-right:1px solid #bbb;
+    }
+
+    nav ul li a:hover{
+        color: #40A1FF;
+    }
+
+    nav ul li i{
+        font-size: 20px;
+    }
+
+    i{
+        margin-left: 12px;
+    }
+    /*fine gestione nav bar */
+
+    /*gestione cerca film*/
+    .boxfilm2{
+        float: left;
+        width: 15%;
+        height: 250px;
+        border: 1px solid #40A1FF;
+        padding: 0px 5px;
+        margin-left: 110px;
+        margin-bottom: 40px;
+        margin-top: 35px;
+    }
+
+    .boxfilm2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .boxfilm2 p{
+        margin-top: 0px;
+        text-align: center;
+
+    }
+    .boxfilm2 p a{
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+        text-decoration-line: underline;
+    }
+    /*fine gestione cerca film*/
+
+    /*gestione film index*/
+    div#boxfilm{
+        max-width: 80%;
+        height: 300px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimageindex{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimageindex img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    #boxfilm p a{
+        margin-left: 10px;
+        color: #40A1FF;
+        text-decoration-line: underline;
+    }
+    /*fine gestione film index*/
+
+    h1#titolo{
+        margin: 40px;
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+    }
+
+    /*gestione showfilm*/
+    div#containerPagefilm{
+        width: 90%;
+        height: 500px;
+        margin: 40px auto;
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+    }
+
+    div#filmimage{
+        float: left;
+        width: 40%;
+        height: 100%;
+        border-right: 1px solid #40A1FF;
+    }
+
+    div#filmimage img{
+        width: 90%;
+        height: 90%;
+        margin-top: 14px;
+        margin-left: 12px;
+        object-fit: contain;
+    }
+
+    div#infofilm{
+        float: left;
+        width: 60%;
+        padding: 10px;
+    }
+
+    .film-title {
+        font-size: 20px;
+        margin-left: 15px;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+    }
+
+    .film-info {
+        font-family: "Arial", sans-serif;
+        font-size: 18px;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    div#divRecensioni{
+        margin-bottom: 40px;
+    }
+
+    div#divRecensioni h1{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+
+    div#newRecensione{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1#rec{
+        text-align: center;
+        text-shadow: 2px 2px 5px #40A1FF;
+        text-transform: uppercase;
+    }
+    /*fine gestione showfilm*/
+
+    /*gestione cercafilm*/
+    form#cercafilmform{
+        max-width: 100%;
+        max-height: 80px;
+        text-align: center;
+    }
+
+    form#cercafilmform label{
+        display: inline-block;
+    }
+
+    form#cercafilmform input, form#cercafilmform select{
+        width: 120px;
+        margin-right: 10px;
+        padding: 6px;
+    }
+    form#cercafilmform input[type="submit"]{
+        display: inline-block;
+        width: 80px;
+    }
+    /*fine gestione cercafilm*/
+
+
+
+    /*gestione form login, registrazione, inserimento film*/
+    form.formMain{
+        max-width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    form.formMain label{
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    form.formMain input,form.formMain select,form.formMain textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    form.formMain p{
+        display: none;
+        color: red;
+        text-align: center;
+    }
+
+    form.formMain input[type="submit"]{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    form.formMain input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    a.styleGreen {
+        display: inline-block;
+        max-width: 200px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.styleGreen:hover {
+        background-color: #45a049;
+    }
+
+    form#newfilm{
+        max-width: 500px;
+    }
+
+    /*fine gestione form*/
+
+
+    /*gestione areautente*/
+    a.styleRed{
+        display: inline-block;
+        max-width: 200px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+        padding: 6px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    div.showCredenziali{
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 8px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    div.showCredenziali p{
+        text-align: center;
+        font-weight: bold;
+        color: #555;
+        font-size: 20px;
+    }
+
+    div.showCredenziali span{
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-left: 5px;
+    }
+    /*fine gestione areautente*/
+
+
+
+    div#formNewFilm{
+        border: 1px solid #40A1FF;
+        border-radius: 5px;
+        padding: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 30px auto;
+        max-height: 75%;
+        max-width: 620px;
+        overflow: scroll;
+    }
+
+    /*gestione slideshow pagina index*/
+    .mySlides {
+        display: none;
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .slideshow-container div{
+        margin: 0px auto;
+    }
+
+    .slideshow-container img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    #divdot{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    /* Fading animation */
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+    }
+
+    /* Sui piccoli schermi diminuisci il text size */
+    @media only screen and (max-width: 300px) {
+        .text {font-size: 11px}
+    }
+
+
+
+    .cart-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Stile dei singoli elementi del carrello */
+    .cart-item {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cart-item img {
+        width: 100px;
+        height: auto;
+        margin-right: 10px;
+    }
+
+    .cart-item .item-details {
+        flex-grow: 1;
+    }
+
+    .cart-item .item-name {
+        font-weight: bold;
+    }
+
+    .cart-item .item-price {
+        color: darkred;
+    }
+
+    .cart-item .quantity-container {
+        display: flex;
+        align-items: center;
+        margin-left: auto;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item {
+        background-color: #ddd;
+    }
+
+    .cart-item .item-quantity {
+        width: 40px;
+        text-align: center;
+        border: 1px solid #ddd;
+        padding: 5px;
+    }
+
+    .cart-item .remove-btn {
+        background-color: #f44336;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-item .remove-btn:hover {
+        background-color: #d32f2f;
+    }
+
+    .item-datetime {
+        font-size: 14px;
+        color: black;
+        margin-bottom: 8px;
+        font-family: "Times New Roman", serif;;
+    }
+
+    .checkout-container {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .checkout-btn {
+        background-color: #FF9900;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .checkout-btn:hover {
+        background-color: #FFB733;
+    }
+
+
+    .payment-form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f5f5f5;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .payment-form h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .payment-form label {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #555;
+    }
+
+    .payment-form input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .payment-form input[type="submit"] {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #4caf50;
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .payment-form input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+
+    .biglietto {
+        width: 300px;
+        background-color: #171717;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 5px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+    }
+
+    .titolo-film {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .sala,
+    .data-ora,
+    .fila-posto,
+    .prezzo {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .sala {
+        color: #999;
+    }
+
+    .data-ora {
+        font-style: italic;
+    }
+
+    .fila-posto {
+        font-weight: bold;
+    }
+
+    .prezzo {
+        font-size: 20px;
+    }
+
+    .order-details {
+        background-color: #f2f2f2;
+        border-radius: 10px;
+        padding: 20px;
+        font-family: Arial, sans-serif;
+        border: 1px solid black;
+
+    }
+
+    .order-details h2 {
+        color: #333333;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .order-details p {
+        color: #666666;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .order-details button {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .order-details button:hover {
+        background-color: #45a049;
+    }
+
+    /*gestione footer*/
+    footer {
+        max-width: 100%;
+        max-height: 200px;
+        margin-bottom: 0;
+        padding: 20px;
+        background-color: #f2f2f2;
+        clear: both;
+    }
+
+    footer p {
+        text-align: center;
+        margin: 5px auto;
+    }
+    footer span{
+        font-style: italic;
+    }
+
+    .wrapper{
+        min-height: 100%;
+    }
+
+    @media (max-height: 200px) {
+        .wrapper {
+            min-height: 0;
+        }
+    }
+}
