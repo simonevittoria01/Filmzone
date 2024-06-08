@@ -11,10 +11,10 @@ Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti gi
 
 ## Contenuto della cartella
 - [Database](database): cartella contenente lo script SQL per la creazione del Database con le tabelle e lo schema E/R
-- [Codice](vittoria-riviello_pj): cartella contenente tutto il codice necessario alla realizzazione del sito
+- [Codice](vittoria-riviello_pj): cartella contenente il codice necessario alla realizzazione del sito
 
 ## Principali Strumenti e Tecnologie utilizzate:
-- Database:
+- RDBMS:
   - MySQL
 - Server:
   - Apache Tomcat
