@@ -6,4 +6,6 @@ Il progetto è finalizzato alla realizzazione di un sito Web per un cinema
 I visitatori di Filmzone potranno registrarsi al sito creando un account personale, conoscere le ultime uscite cinematografiche e gli orari delle proiezioni, potranno acquistare i biglietti e tanto altro ancora
 Uno degli obiettivi principali del sito è quello di essere alla portata di tutti, quindi di essere intuitivo e facile da utilizzare
 
-## Obiettivo
+## Contenuto della cartella
+- [Database](database): è una cartella contenente uno script SQL per la creazione del Database con le tabelle e lo schema E/R
+- [Sorgente](vittoria-riviello_pj): è la cartella che contiene tutto il codice necessario alla realizzazione del sito
