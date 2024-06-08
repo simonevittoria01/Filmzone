@@ -2,6 +2,7 @@
 Filmzone è un progetto realizzato con un mio collega che mi è servito per il conseguimento dell'esame di Tecnologie Software per il Web, superato con votazione 30/30  
 Il progetto è finalizzato alla realizzazione di un sito Web per un cinema
 
+
 ## Obiettivo
 I visitatori di Filmzone potranno registrarsi al sito creando un account personale, conoscere le ultime uscite cinematografiche e gli orari delle proiezioni, potranno acquistare i biglietti, valutare i film appena visti e tanto altro ancora...  
 Uno degli obiettivi principali del sito è quello di essere alla portata di tutti, quindi di essere intuitivo e facile da utilizzare anche per gli utenti meno all'avanguardia  
@@ -9,5 +10,17 @@ Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti gi
 
 
 ## Contenuto della cartella
-- [Database](database): è una cartella contenente uno script SQL per la creazione del Database con le tabelle e lo schema E/R
-- [Sorgente](vittoria-riviello_pj): è la cartella che contiene tutto il codice necessario alla realizzazione del sito
+- [Database](database): cartella contenente lo script SQL per la creazione del Database con le tabelle e lo schema E/R
+- [Codice](vittoria-riviello_pj): cartella contenente tutto il codice necessario alla realizzazione del sito
+
+## Principali Strumenti e Tecnologie utilizzate:
+- Database:
+  - MySQL
+- Server:
+  - Apache Tomcat
+- Librerie:
+  - jQuery
+- Tecniche:
+  - Ajax
+- Architettura:
+  - three-tier
