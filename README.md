@@ -1,6 +1,5 @@
 # FILMZONE
-## Introduzione
-**Filmzone** è un progetto per il corso di Tecnologie Software per il Web ed è finalizzato alla realizzazione di un sito Web per un cinema
+Filmzone è un progetto per il corso di Tecnologie Software per il Web ed è finalizzato alla realizzazione di un sito Web per un cinema
 Da un'idea degli studenti Gianmarco Riviello e Simone Vittoria
 
 ## Obiettivo
