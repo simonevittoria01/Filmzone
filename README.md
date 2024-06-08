@@ -5,7 +5,7 @@ Il progetto è finalizzato alla realizzazione di un sito Web per un cinema
 ## Obiettivo
 I visitatori di Filmzone potranno registrarsi al sito creando un account personale, conoscere le ultime uscite cinematografiche e gli orari delle proiezioni, potranno acquistare i biglietti, valutare i film appena visti e tanto altro ancora...  
 Uno degli obiettivi principali del sito è quello di essere alla portata di tutti, quindi di essere intuitivo e facile da utilizzare anche per gli utenti meno all'avanguardia  
-Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti già in circolazione sul Web, come ad esempio [thespacecinema](https://www.thespacecinema.it).  
+Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti già in circolazione sul Web, come ad esempio [thespacecinema](https://www.thespacecinema.it)  
 
 
 ## Contenuto della cartella
