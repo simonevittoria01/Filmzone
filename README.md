@@ -21,6 +21,6 @@ Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti gi
 - Librerie:
   - jQuery
 - Tecniche:
-  - Ajax
+  - AJAX
 - Architettura:
-  - three-tier
+  - Three-tier
