@@ -18,9 +18,5 @@ Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti gi
   - MySQL
 - Server:
   - Apache Tomcat
-- Librerie:
-  - jQuery
-- Tecniche:
-  - AJAX
 - Architettura:
   - Three-tier
