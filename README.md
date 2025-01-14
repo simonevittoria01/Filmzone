@@ -1,6 +1,5 @@
 # FILMZONE
-Filmzone è un progetto universitario realizzato con un mio collega che mi è servito per il conseguimento dell'esame di Tecnologie Software per il Web, superato con votazione 30/30
-Il progetto è finalizzato alla realizzazione di un sito Web per un cinema
+Filmzone è un progetto universitario realizzato con un mio collega che mi è servito per il conseguimento dell'esame di Tecnologie Software per il Web, superato con votazione 30/30. Il progetto è finalizzato alla realizzazione di un sito Web per un cinema
 
 
 ## Obiettivo
