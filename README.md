@@ -9,8 +9,8 @@ Alcuni aspetti e dettagli implementativi di Filmzone richiamano ad altri siti gi
 
 
 ## Contenuto della cartella
-- [Database](database): cartella contenente lo script SQL per la creazione del Database con le tabelle e lo schema E/R
-- [Codice](vittoria-riviello_pj): cartella contenente il codice necessario alla realizzazione del sito
+- [Database](database): cartella contenente lo script SQL per la creazione del Database e lo schema E/R
+- [vittoria-riviello_pj](vittoria-riviello_pj): cartella contenente il codice necessario alla realizzazione del sito web
 
 ## Principali Strumenti e Tecnologie utilizzate:
 - Tecnologie Front-end: HTML, CSS, JavaScript, AJAX, jQuery
